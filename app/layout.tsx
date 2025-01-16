@@ -20,8 +20,7 @@ export default function RootLayout({
         <LiffProvider>
           <header>
             <nav>
-              <a href="/">Home</a>
-              {/* 他のナビゲーションリンクを追加可能 */}
+                <a className="center" href="/">Home</a>
             </nav>
           </header>
           <main>{children}</main>
